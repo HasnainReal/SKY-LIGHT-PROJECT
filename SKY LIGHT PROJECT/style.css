@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* <!-- Hero Section Starts Here --> */
+
+.carousel-item img {
+    width: 100%;
+    height: 96vh;
+    object-fit: cover;
+}
+
+.carousel-item {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-caption {
+    text-align: left;
+}
+
+.hero-content {
+    letter-spacing: 1px;
+    font-size: 47px;
+    line-height: 62px;
+}
+
+.hero-btn {
+    border-radius: 14px;
+    border: none;
+    background: #ced6e0;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+#hero-ca {
+    margin: -390px 0 0 53px;
+}
+
+.carousel-caption button {
+    margin: 70px 0 0 53px;
+}
+
+
+/* <!-- Hero Section Ends Here --> */
+
+/* <!-- Contact Section Starts Here --> */
+
+#ct-hd {
+    font-size: 19px;
+}
+
+.contact-section {
+    background: #e8b0b7;
+}
+
+/* <!-- Contact Section Ends Here --> */
+
+/* <!-- Media Quries Starts Here --> */
+
+@media (max-width: 1200px) {
+
+    .hero-content {
+        font-size: 44px;
+        line-height: 60px;
+    }
+
+    #ct-hd {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .hero-content {
+        font-size: 40px;
+        line-height: 59px;
+    }
+
+    #ct-hd {
+        font-size: 15px;
+    }
+
+    .hero-btn {
+        border-radius: 20px;
+        letter-spacing: 1px;
+        font-size: 17px;
+    }
+
+    #header-navbar {
+        border-bottom: 1px solid rgb(196, 194, 194);
+    }
+}
+
+@media (max-width: 768px) {
+
+    .hero-content {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    #ct-hd {
+        font-size: 16px;
+    }
+
+    .hero-btn {
+        border-radius: 20px;
+        letter-spacing: 1px;
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    #hero-ca {
+        margin: -340px 0 0 16px;
+    }
+
+    .carousel-caption button {
+        margin: 60px 0 0 16px;
+    }
+
+    .hero-content {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .hero-btn {
+        border-radius: 20px;
+        letter-spacing: 1px;
+        font-size: 12px;
+    }
+
+    #ct-hd {
+        font-size: 15px;
+    }
+
+    #sr-hd h3 {
+        font-size: 18px;
+    }
+
+    #sr-hd p {
+        font-size: 14px;
+    }
+
+    #ar-btn {
+        font-size: 14px;
+    }
+}
+
+/* <!-- Media Quries Ends Here --> */
